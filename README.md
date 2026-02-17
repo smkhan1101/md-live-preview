@@ -26,7 +26,7 @@ A minimal, embeddable Markdown editor with live preview. Built with Next.js 15, 
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/md-live-preview.git
+git clone https://github.com/smkhan1101/md-live-preview.git
 cd md-live-preview
 npm install
 npm run dev
