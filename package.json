@@ -1,0 +1,44 @@
+{
+  "name": "md-live-preview",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Embeddable Markdown live preview tool — write and see rendered output in real time.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/md-live-preview.git"
+  },
+  "homepage": "https://github.com/your-username/md-live-preview#readme",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@codemirror/lang-markdown": "^6.3.1",
+    "lucide-react": "^0.460.0",
+    "@uiw/codemirror-theme-github": "^4.23.0",
+    "@uiw/react-codemirror": "^4.23.0",
+    "html2pdf.js": "^0.10.2",
+    "next": "15.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
+    "remark-gfm": "^4.0.0",
+    "sonner": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}
