@@ -4,7 +4,7 @@ A minimal, embeddable Markdown editor with live preview. Built with Next.js 15, 
 
 ## Live Demo
 
-**[Try it live →](https://your-live-url.vercel.app)** *(Replace with your deployed URL after publishing.)*
+**[Try it live →](https://md-live-preview.vercel.app)** *(Replace with your deployed URL after publishing.)*
 
 ## Features
 
