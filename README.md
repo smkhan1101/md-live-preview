@@ -4,7 +4,7 @@ A minimal, embeddable Markdown editor with live preview. Built with Next.js 15, 
 
 ## Live Demo
 
-**[Try it live →](https://markpreview.vercel.app)** *(Replace with your deployed URL after publishing.)*
+**[Try it live →](https://your-live-url.vercel.app)** *(Replace with your deployed URL after publishing.)*
 
 ## Features
 
@@ -26,7 +26,7 @@ A minimal, embeddable Markdown editor with live preview. Built with Next.js 15, 
 ## Setup
 
 ```bash
-git clone https://github.com/smkhan1101/md-live-preview.git
+git clone https://github.com/your-username/md-live-preview.git
 cd md-live-preview
 npm install
 npm run dev
@@ -49,7 +49,7 @@ To embed in another site (e.g. a blog “Tools” page):
 
 ```html
 <iframe
-  src="https://markpreview.vercel.app"
+  src="https://your-live-url.vercel.app"
   title="Markdown Live Preview"
   style="width:100%;height:80vh;border:1px solid #eee;border-radius:8px;"
 ></iframe>
@@ -60,8 +60,8 @@ Replace the `src` with your deployed app URL.
 
 ## Tech stack
 
-- Next.js 15 (App Router)
-- React 18
+- Next.js 16 (App Router, Turbopack)
+- React 19
 - TypeScript
 - Tailwind CSS
 - CodeMirror 6 (@uiw/react-codemirror, @codemirror/lang-markdown)
